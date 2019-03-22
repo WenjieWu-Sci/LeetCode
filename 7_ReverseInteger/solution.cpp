@@ -15,11 +15,17 @@ public:
     }
 };
 
-int main(int argc, char** argv) {
-    int org_num= 1234;
-    if (argc>1) org_num= atoi(argv[1]);
+void solution(int org_num= 1234) {
     Solution rev;
     int rev_num= rev.reverse(org_num);
     std::cout<<org_num<<"<--->"<<rev_num<<std::endl;
+}
+
+#ifndef _CINT_
+int main(int argc, char** argv) {
+    int org_num= 1234;
+    if (argc>1) org_num= atoi(argv[1]);
+    solution(org_num);
     return 0;
 }
+#endif
