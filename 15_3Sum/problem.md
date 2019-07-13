@@ -20,7 +20,8 @@ A solution set is:
 * 利用set清除掉非零list中重复的元素
 * 按照零零零、正零负、正负负、正正负四类进行遍历
 
-**思路2** `(time limit exceeded)`
+**思路2** `(time limit exceeded)` 
+
 1 不重复地遍历list找到和为0的三个数
 2 按从小到大的顺序排好
 3 比较是否有重复，没有重复就添加到结果中
