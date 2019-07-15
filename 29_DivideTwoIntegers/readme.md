@@ -23,4 +23,5 @@ Output: -2
 * Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [$−2^{31},  2^{31} − 1$]. For the purpose of this problem, assume that your function returns $2^{31} − 1$ when the division result overflows.
 
 **思路**
+
 利用bit manipulation做2倍的乘法，左移一位相当于乘2
